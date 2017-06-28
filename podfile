@@ -1,0 +1,28 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'sfg' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+pod 'AFNetworking', '~> 3.1.0'
+pod 'AliyunOSSiOS', '~> 2.5.1'
+pod 'SDWebImage', '~> 3.8.1'
+pod 'FMDB', '~> 2.6.2'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'SVProgressHUD', '~> 2.0.3'
+pod 'Masonry', '~> 1.0.1'
+pod 'YYModel', '~> 1.0.4'
+pod 'IQKeyboardManager', '~> 4.0.5'
+  # Pods for sfg
+
+  target 'sfgTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'sfgUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,29 @@
+//
+//  sfg_Prefix.pch
+//  sfg
+//
+//  Created by patrikstar on 2017/6/27.
+//  Copyright © 2017年 patrikstar. All rights reserved.
+//
+
+#ifndef sfg_Prefix_pch
+#define sfg_Prefix_pch
+
+#import "Constants.h"
+#import "AppMacro.h"
+#import "UIView+ZS.h"
+
+
+
+#import "IQKeyboardManager.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+#import "YYModel.h"
+#import "UIImageView+WebCache.h"
+//#import "JXTAlertTools.h"
+//#import "NetWork.h"
+//#import "BaseUserSave.h"
+//#import "ControllerManger.h"
+//#import "MJExtension.h"
+
+#endif /* sfg_Prefix_pch */
